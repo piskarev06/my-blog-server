@@ -2,9 +2,10 @@
   "name": "my-blog-server",
   "version": "1.0.0",
   "description": "api server for my-blog project",
+  "main": "server.js",
   "scripts": {
-    "start": "json-server --watch db.json",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js",
+    "server": "json-server --watch db.json"
   },
   "author": "Danila Piskarev",
   "license": "ISC",
