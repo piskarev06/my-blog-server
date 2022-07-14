@@ -1,0 +1,14 @@
+{
+  "name": "my-blog-server",
+  "version": "1.0.0",
+  "description": "api server for my-blog project",
+  "scripts": {
+    "start": "json-server --watch db.json",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Danila Piskarev",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^0.17.0"
+  }
+}
